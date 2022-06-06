@@ -1,3 +1,42 @@
+Part 1. INSERT 
+
+insert into users (first_name, last_name) 
+values ('test', 'user'), ('test2', 'user');
+
+Part 2. UPDATE addresses
+
+update usersAddress set address = 'REDACTED' 
+where address like 'OH'
+
+Part 3. Delete
+
+-- DELETE from usersContact
+
+delete from usersContact 
+where user_id like '114';
+
+-- DELETE from usersAddress
+
+delete from usersAddress 
+where user_id like '114';
+
+-- DELETE from users
+
+delete from users 
+where user_id like '114';
+
+
+
+
+
+
+
+
+
+
+
+
+
 # SQL CRUD
 
 ## Setup
